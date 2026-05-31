@@ -1,0 +1,12 @@
+[package]
+name = "lau-graph-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Graph theory library — structures, algorithms, and spectral methods for network analysis"
+repository = "https://github.com/SuperInstance/lau-graph-theory"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+rand = "0.9"
